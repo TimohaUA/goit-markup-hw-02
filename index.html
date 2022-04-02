@@ -5,49 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="styleshet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
     <!--Шапка (навігатор)-->
     <header>
-      <nav>
+      <nav class="inline_block">
         <!--Логотип-->
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="logo">Web<span>Studio</span></a>
 
         <!--Навігація-->
-        <ul>
-          <li>
-            <a href="./studio.html">Студия</a>
+        <ul class="nav_menu inline_block">
+          <li class="inline_block">
+            <a href="./studio.html" class="menu_a">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
+          <li class="inline_block">
+            <a href="./portfolio.html" class="menu_a">Портфолио</a>
           </li>
-          <li>
-            <a href="./contacts.html">Контакты</a>
+          <li class="inline_block">
+            <a href="./contacts.html" class="menu_a">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <!--Активні посилання на контаки-->
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contacts inline_block">
+        <li class="inline_block">
+          <a href="mailto:info@devstudio.com" class="contacts_a"
+            >info@devstudio.com</a
+          >
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="inline_block">
+          <a href="tel:+380961111111" class="contacts_a">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
 
     <!-- Баннер -->
-    <section>
+    <section class="order_service">
       <h1>Эффективные решения<br />для вашего бизнеса</h1>
-      <button type="button">Заказать услугу</button>
+      <button class="btn_order" type="button">Заказать услугу</button>
     </section>
 
     <!-- Наші цілі та переваги -->
-    <section>
-      <h2>Наші цілі та переваги</h2>
-      <ul>
+    <section class="our_goals_section">
+      <h2 class="our_goals">Наші цілі та переваги</h2>
+      <ul class="our_goals_ul">
         <!--Внимание к деталям-->
         <li>
           <h3>Внимание к деталям</h3>
@@ -84,10 +93,10 @@
     </section>
 
     <!--Наша робота-->
-    <section>
+    <section class="our_work">
       <h2>Чем мы занимаемся</h2>
-      <ul>
-        <li>
+      <ul class="work">
+        <li class="inline_block">
           <a href="https://www.google.com/">
             <img
               src="./image/our_working_1.jpg"
@@ -97,7 +106,7 @@
             />
           </a>
         </li>
-        <li>
+        <li class="inline_block">
           <a
             href="https://about.google/?utm_source=google-UA&utm_medium=referral&utm_campaign=hp-footer&fg=1"
           >
@@ -109,7 +118,7 @@
             />
           </a>
         </li>
-        <li>
+        <li class="inline_block">
           <a href="https://about.google/products/">
             <img
               src="./image/our_working_3.jpg"
@@ -123,11 +132,11 @@
     </section>
 
     <!--Наша команда-->
-    <section>
+    <section class="our_comands">
       <h2>Наша команда</h2>
-      <ul>
-        <li>
-          <!--Игорь Демьяненко-->
+      <ul class="comands">
+        <!--Игорь Демьяненко-->
+        <li class="inline_block">
           <a href="https://www.facebook.com/profile.php?id=100017404060093">
             <img
               src="./image/Igor_Demyanenko.jpg"
@@ -138,7 +147,10 @@
             <h3>Игорь Демьяненко</h3>
             <p>Product Designer</p>
           </a>
-          <!--Ольга Репина-->
+        </li>
+
+        <!--Ольга Репина-->
+        <li class="inline_block">
           <a href="https://www.facebook.com/profile.php?id=100010853467044">
             <img
               src="./image/Olha_Repina.jpg"
@@ -149,7 +161,10 @@
             <h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
           </a>
-          <!--Николай Тарасов-->
+        </li>
+
+        <!--Николай Тарасов-->
+        <li class="inline_block">
           <a href="https://www.facebook.com/profile.php?id=100012960483008">
             <img
               src="./image/Nikolay_Tarasov.jpg"
@@ -160,7 +175,10 @@
             <h3>Николай Тарасов</h3>
             <p>Marketing</p>
           </a>
-          <!--Михаил Ермаков-->
+        </li>
+
+        <!--Михаил Ермаков-->
+        <li class="inline_block">
           <a href="https://www.facebook.com/profile.php?id=100002098032545">
             <img
               src="./image/Michail_Ermakov.jpg"
@@ -178,18 +196,20 @@
     <!--Футер-->
     <footer>
       <!--Логотип-->
-      <a href="/index.html">WebStudio</a>
+      <a href="./index.html" class="logo"
+        >Web<span class="footer_sp">Studio</span></a
+      >
 
       <!--Адреса та контакти-->
 
-      <ul>
+      <ul class="adresa">
         <li>
           <address>г. Киев, пр-т Леси Украинки, 26</address>
         </li>
-        <li>
+        <li class="mail">
           <a href="mailto:info@example.com">info@example.com</a>
         </li>
-        <li>
+        <li class="phone">
           <a href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>

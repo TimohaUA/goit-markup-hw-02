@@ -1,0 +1,260 @@
+:root {
+  --main-color-hover: #2196f3;
+  --main-color: #212121;
+  --main-background-color: #2f303a;
+  --contacts-color: #757575;
+  --text-roboto: "Roboto", sans-serif;
+  --text-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--text-roboto);
+  margin: 0;
+}
+
+nav {
+  columns: auto;
+}
+
+.nav_menu {
+  padding-left: 0px;
+  padding-right: 300px;
+}
+
+header li {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+header .logo {
+  padding-left: 215px;
+  padding-right: 93px;
+}
+
+.logo {
+  font-family: var(--text-raleway);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--main-color-hover);
+
+  text-decoration: none;
+}
+
+.logo > span {
+  color: var(--main-color);
+}
+
+.menu_a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color);
+}
+
+.menu_a:hover {
+  color: var(--main-color-hover);
+}
+
+.inline_block {
+  display: inline-block;
+  /*vertical-align: top;*/
+}
+
+.contacts_a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--contacts-color);
+}
+
+.contacts_a:hover {
+  color: var(--main-color-hover);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: block;
+  text-decoration: none;
+}
+
+.order_service {
+  background-color: var(--main-background-color);
+  text-align: center;
+  padding: 200px 452px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  padding: 0;
+  margin: 0;
+}
+
+.btn_order {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--main-color-hover);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /*display: flex;
+  align-items: center;
+  text-align: center;*/
+  letter-spacing: 0.06em;
+}
+
+.btn_order:hover {
+  background-color: var(--contacts-color);
+}
+
+.btn_order:focus {
+  background-color: rgba(114, 114, 211, 0.2);
+}
+
+.our_goals_section {
+  padding: 94px 200px 94px 200px;
+}
+
+.our_goals {
+  display: none;
+}
+
+.our_goals_ul {
+  padding: 0%;
+  column-count: 4;
+}
+
+.our_goals_ul > li {
+  padding: 0 15px 0 15px;
+}
+
+.our_goals_ul h3 {
+  padding: 0%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.our_goals_ul p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--contacts-color);
+}
+
+.work,
+.comands {
+  text-align: center;
+}
+
+.our_work {
+  margin: 0 200px 94px 200px;
+}
+
+.work > li {
+  padding: 50px 15px 0 15px;
+}
+
+.comands li {
+  width: 270px;
+  height: 368px;
+  background-color: white;
+  margin: 50px 15px 0 15px;
+}
+
+.comands h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.comands p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--contacts-color);
+}
+
+/*.our_work {
+  background-color: #e5e5e5;
+}
+*/
+.our_comands {
+  background-color: #e5e5e5;
+  padding: 94px 200px;
+}
+
+footer {
+  background-color: var(--main-background-color);
+  padding: 60px 215px;
+}
+
+.logo > .footer_sp {
+  color: white;
+}
+
+.adresa {
+  padding: 0;
+}
+
+.adresa address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail > a,
+.phone > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
