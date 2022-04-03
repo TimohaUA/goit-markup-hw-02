@@ -296,13 +296,15 @@ footer {
 }
 
 .list_work {
-  columns: 3;
-  padding: 0 200px 0 200px;
+  /*columns: 3;*/
+  padding: 0 200px 94px 200px;
+  column-count: 3;
+  text-align: left;
 }
 
 .list_work img {
-  margin: 0;
-  padding: 0;
+  /*margin: 0;
+  padding: 0;*/
 }
 
 .list_work h2 {
@@ -312,6 +314,8 @@ footer {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  display: inline-block;
+  padding: 20px 0 0 24px;
 }
 
 .list_work p {
@@ -322,6 +326,8 @@ footer {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
+  padding: 0 0 20px 24px;
+  margin: 0;
 }
 
 .list_work li {
@@ -330,5 +336,5 @@ footer {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  padding: 15px 15px 15px 15px;
+  margin: 15px;
 }
