@@ -296,15 +296,9 @@ footer {
 }
 
 .list_work {
-  /*columns: 3;*/
   padding: 0 200px 94px 200px;
   column-count: 3;
   text-align: left;
-}
-
-.list_work img {
-  /*margin: 0;
-  padding: 0;*/
 }
 
 .list_work h2 {
